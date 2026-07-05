@@ -34,9 +34,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6i0471_000.yaml, hash: 'sha256:05cb8066a978acca80daa98a11421164784cbd50d95e4421a8c8fcc12b3e8811'}
-  - {seq: 1, filename: KR6i0471_001.yaml, hash: 'sha256:c3b65a0509f8f8aeed783e7ed8913a8fc369f47885bb5ea818d9ad9ce46e250c'}
+  - {seq: 1, filename: KR6i0471_001.yaml, hash: 'sha256:981ccab6531e57e9173c7591825cad7efd8b5c3ae29e8d57a4c7220fbf03bed9'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6i0471_001.markers.yaml, hash: 'sha256:f5c19c87274a2849e076ca5e32859229a3b805278cb02dfee91e3d2de8cf855c'}
+  - {seq: 0, role: markers, filename: assets/KR6i0471_000.markers.yaml, hash: 'sha256:edad5f725a1447e5e23282bd7b5cab7c0ed7c14059760f4328d72c420897e495'}
+  - {seq: 1, role: markers, filename: assets/KR6i0471_001.markers.yaml, hash: 'sha256:a9954cc9059de5f589640520a83e917c06a587850f68cd92a3ddfb81b169c408'}
 table_of_contents:
 - ref:
     seq: 1
@@ -48,7 +49,4 @@ table_of_contents:
   label: 大乘四法經
   type: juan
   level: 1
-hash: sha256:1c1fdadd17a02bb7cf9935c28da83c7b52cd98b3c803ef150af8859ef4117875
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:9faad8197578bbe8104f016781274faaa8736f5d73ae84c49388ad73651a4ba4
